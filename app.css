@@ -1,0 +1,126 @@
+body{
+    overflow: hidden;
+   /* background:linear-gradient(#7588e5, #bde5b9);*/
+   background-color: #fff6f9;
+  }
+  
+  .container{
+    width: 95%; 
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+  }
+  
+  .calculator{
+    width: 350px;
+    margin: auto;
+    border-radius: 25px;
+    background: #ffcbdb;
+    padding: 15px 15px 20px 20px;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.9);
+    color:black;
+    cursor: pointer;
+
+  }
+  
+  #user_input{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 40px 5px;
+    background: rgb(255, 255, 255);
+    text-align: right;
+    direction: ltr; /*(Left to right)*/
+    outline: none;
+    border: 1px gray solid;
+    border-radius: 10px;
+    font-size: 32px;
+    color:rgb(0, 0, 0);
+  }
+  
+  .btn{
+    width: 24%;
+    height: 55px;
+    border-radius: 20px;
+    border:white;
+    outline: none;
+    margin-top: 3px;
+    background:#8eb0bc;
+    color:white;
+    font-size: 25px;
+    cursor: pointer;
+  }
+  .btn-d{
+    width: 24%;
+    height: 55px;
+    border-radius: 20px;
+    border:white;
+    outline: none;
+    margin-top: 3px;
+    background:#747fce;
+    color:white;
+    font-size:25px;
+    cursor: pointer;
+  }
+  .btn-c{
+    width: 24%;
+    height: 55px;
+    text-align: center;
+    align-items: center;
+    border-radius: 20px;
+    border:white;
+    outline: none;
+    margin-top: 3px;
+    background: rgb(255, 0, 0);
+    color:white;
+    font-size: 25px;
+    cursor: pointer;
+  }
+  
+  .btnEqual{
+    width:99.5%;
+    height: 45px;
+    border: none;
+    outline: none;
+    margin-top: 3px;
+    background:#678088;
+    color:white;
+    border-radius: 10px;
+    font-size: 35px;
+    cursor: pointer;
+  }
+  .btn-c:hover{
+    background-color:#d11507;
+    border:none;
+    transition: 200ms;
+  }
+  .btn:hover{
+    background-color:#b0e0e6;
+    border: none;
+    color:black;
+    transition: 200ms;
+  }
+  .btn-d:hover{
+  background-color:#aab1e9;
+  border:none;
+  color:black;
+  transition: 200ms;
+  }
+.btnEqual:hover{
+    background-color:#90b7bc;
+    border: none;
+    color:black;
+    transition: 200ms;
+    
+  }
+  
+  @media(max-width:480px){
+    .btn{width: 23.4%;}
+  }
+  
+  @media(max-width:320px){
+    .btn{width: 23%;}
+  }
